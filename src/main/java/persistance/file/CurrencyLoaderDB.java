@@ -13,10 +13,8 @@ import model.Currency;
  * @author aagir
  */
 public class CurrencyLoaderDB implements CurrencyLoader {
-    public List<Currency> loadCurrencyFromFile() {
-        String connectString = "";
-        List<Currency> list = new ArrayList<>();
-        
-        return list;
+    @Override
+    public List<Currency> currencyLoader() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }

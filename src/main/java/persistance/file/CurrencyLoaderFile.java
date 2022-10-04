@@ -44,7 +44,7 @@ public class CurrencyLoaderFile implements CurrencyLoader {
     
     private Currency currencyOf(String line) {
         String[] split = line.split(",");
-        return new Currency(split[0], split[1], split[2]);
+        return new Currency(split[1], split[0], split[2]);
     }
 
     public CurrencyLoaderFile(String fileName) {
